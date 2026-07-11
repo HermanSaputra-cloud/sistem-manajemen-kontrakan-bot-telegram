@@ -43,3 +43,18 @@ Sistem menggunakan satu rumus pusat berskala besar (ARRAYFORMULA) pada Kolom Sta
 Otomatisasi dibangun menggunakan Google Apps Script berbasis JavaScript untuk membaca baris tabel secara berkala, memfilter unit yang membutuhkan perhatian khusus (AKAN JATUH TEMPO atau MENUNGGAK), dan mengirimkannya ke Telegram API.
 
 **Kode Program yang Digunakan:**
+![Script](script.JPG)
+
+## 6. Pengaturan Trigger (Pemicu Otomatis)
+Sistem ini tidak memerlukan eksekusi manual tombol "Run". Pengelola memasang Time-driven Trigger dengan tipe Day Timer yang disetel untuk mengesekusi fungsi kirimNotifikasiKontrakan setiap hari pada pukul 08.00 - 09.00 AM. Melalui konfigurasi ini, pengelola akan menerima laporan tagihan harian langsung di aplikasi Telegram HP secara konsisten.
+
+**Notifikasi Otomatis yang Diterima di Telegram HP**
+![Hasil Bot Telegram](bot_telegram.jpg)
+
+## 7. Kesimpulan & Dampak Project
+Projek ini berhasil memangkas waktu pengecekan data tagihan properti dari yang sebelumnya dilakukan manual menjadi sepenuhnya otomatis. Dengan adanya pembagian visual warna yang jelas di Google Sheets serta notifikasi push-notification langsung ke Telegram, potensi keterlambatan penagihan sewa dapat ditekan hingga 0%, sekaligus menjaga stabilitas cash flow keuangan usaha kontrakan.
+
+## Tampilan Dashboard Google Sheets
+![Tabel Kontrakan](tabel.JPG)
+
+## 🔗 Link Google Sheets (Live Preview): [https://docs.google.com/spreadsheets/d/1Wb2usytiOPncapq1m9AobPZ16XdBYwehvqsiCIGiHoI/edit?usp=sharing]
